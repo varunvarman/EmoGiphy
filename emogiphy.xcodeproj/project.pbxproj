@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		012C3C3C1EC2E2D10053A9D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012C3C3B1EC2E2D10053A9D2 /* AppDelegate.swift */; };
+		012C3C3E1EC2E2D10053A9D2 /* EmojiCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012C3C3D1EC2E2D10053A9D2 /* EmojiCollectionViewController.swift */; };
+		012C3C411EC2E2D10053A9D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012C3C3F1EC2E2D10053A9D2 /* Main.storyboard */; };
+		012C3C431EC2E2D10053A9D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012C3C421EC2E2D10053A9D2 /* Assets.xcassets */; };
+		012C3C461EC2E2D10053A9D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012C3C441EC2E2D10053A9D2 /* LaunchScreen.storyboard */; };
+		012C3C511EC2E2D10053A9D2 /* emogiphyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012C3C501EC2E2D10053A9D2 /* emogiphyTests.swift */; };
+		012C3C5C1EC2E2D10053A9D2 /* emogiphyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012C3C5B1EC2E2D10053A9D2 /* emogiphyUITests.swift */; };
+		67DCC7F18DD3F1F626323401 /* Pods_emogiphy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE0450FC2E941C40F2F635C /* Pods_emogiphy.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		012C3C4D1EC2E2D10053A9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 012C3C301EC2E2D00053A9D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 012C3C371EC2E2D00053A9D2;
+			remoteInfo = emogiphy;
+		};
+		012C3C581EC2E2D10053A9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 012C3C301EC2E2D00053A9D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 012C3C371EC2E2D00053A9D2;
+			remoteInfo = emogiphy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012C3C381EC2E2D10053A9D2 /* emogiphy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = emogiphy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		012C3C3B1EC2E2D10053A9D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		012C3C3D1EC2E2D10053A9D2 /* EmojiCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCollectionViewController.swift; sourceTree = "<group>"; };
+		012C3C401EC2E2D10053A9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		012C3C421EC2E2D10053A9D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		012C3C451EC2E2D10053A9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		012C3C471EC2E2D10053A9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		012C3C4C1EC2E2D10053A9D2 /* emogiphyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emogiphyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		012C3C501EC2E2D10053A9D2 /* emogiphyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emogiphyTests.swift; sourceTree = "<group>"; };
+		012C3C521EC2E2D10053A9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		012C3C571EC2E2D10053A9D2 /* emogiphyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emogiphyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		012C3C5B1EC2E2D10053A9D2 /* emogiphyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emogiphyUITests.swift; sourceTree = "<group>"; };
+		012C3C5D1EC2E2D10053A9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BE0450FC2E941C40F2F635C /* Pods_emogiphy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_emogiphy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55B6CC170D8A192D73B05F81 /* Pods-emogiphy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emogiphy.release.xcconfig"; path = "Pods/Target Support Files/Pods-emogiphy/Pods-emogiphy.release.xcconfig"; sourceTree = "<group>"; };
+		8DD9892F3DFF24998FFD02CB /* Pods-emogiphy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emogiphy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-emogiphy/Pods-emogiphy.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		012C3C351EC2E2D00053A9D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67DCC7F18DD3F1F626323401 /* Pods_emogiphy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		012C3C491EC2E2D10053A9D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		012C3C541EC2E2D10053A9D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		012C3C2F1EC2E2D00053A9D2 = {
+			isa = PBXGroup;
+			children = (
+				012C3C3A1EC2E2D10053A9D2 /* emogiphy */,
+				012C3C4F1EC2E2D10053A9D2 /* emogiphyTests */,
+				012C3C5A1EC2E2D10053A9D2 /* emogiphyUITests */,
+				012C3C391EC2E2D10053A9D2 /* Products */,
+				68260608670D0EBF25CEEE10 /* Pods */,
+				E691C0A7FC315DA5B62BF011 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		012C3C391EC2E2D10053A9D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				012C3C381EC2E2D10053A9D2 /* emogiphy.app */,
+				012C3C4C1EC2E2D10053A9D2 /* emogiphyTests.xctest */,
+				012C3C571EC2E2D10053A9D2 /* emogiphyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		012C3C3A1EC2E2D10053A9D2 /* emogiphy */ = {
+			isa = PBXGroup;
+			children = (
+				012C3C3B1EC2E2D10053A9D2 /* AppDelegate.swift */,
+				012C3C471EC2E2D10053A9D2 /* Info.plist */,
+				012C3C781EC311EE0053A9D2 /* Controller */,
+				012C3C421EC2E2D10053A9D2 /* Assets.xcassets */,
+				012C3C7A1EC311FF0053A9D2 /* View */,
+			);
+			path = emogiphy;
+			sourceTree = "<group>";
+		};
+		012C3C4F1EC2E2D10053A9D2 /* emogiphyTests */ = {
+			isa = PBXGroup;
+			children = (
+				012C3C501EC2E2D10053A9D2 /* emogiphyTests.swift */,
+				012C3C521EC2E2D10053A9D2 /* Info.plist */,
+			);
+			path = emogiphyTests;
+			sourceTree = "<group>";
+		};
+		012C3C5A1EC2E2D10053A9D2 /* emogiphyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				012C3C5B1EC2E2D10053A9D2 /* emogiphyUITests.swift */,
+				012C3C5D1EC2E2D10053A9D2 /* Info.plist */,
+			);
+			path = emogiphyUITests;
+			sourceTree = "<group>";
+		};
+		012C3C781EC311EE0053A9D2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				012C3C3D1EC2E2D10053A9D2 /* EmojiCollectionViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		012C3C7A1EC311FF0053A9D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				012C3C3F1EC2E2D10053A9D2 /* Main.storyboard */,
+				012C3C441EC2E2D10053A9D2 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		68260608670D0EBF25CEEE10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DD9892F3DFF24998FFD02CB /* Pods-emogiphy.debug.xcconfig */,
+				55B6CC170D8A192D73B05F81 /* Pods-emogiphy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E691C0A7FC315DA5B62BF011 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BE0450FC2E941C40F2F635C /* Pods_emogiphy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		012C3C371EC2E2D00053A9D2 /* emogiphy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 012C3C601EC2E2D10053A9D2 /* Build configuration list for PBXNativeTarget "emogiphy" */;
+			buildPhases = (
+				BFEF2937840A6C1B67CB357D /* [CP] Check Pods Manifest.lock */,
+				012C3C341EC2E2D00053A9D2 /* Sources */,
+				012C3C351EC2E2D00053A9D2 /* Frameworks */,
+				012C3C361EC2E2D00053A9D2 /* Resources */,
+				DD634BC0BFEED24432305B52 /* [CP] Embed Pods Frameworks */,
+				7D5E9E371F4049E9FA2F75BF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = emogiphy;
+			productName = emogiphy;
+			productReference = 012C3C381EC2E2D10053A9D2 /* emogiphy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		012C3C4B1EC2E2D10053A9D2 /* emogiphyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 012C3C631EC2E2D10053A9D2 /* Build configuration list for PBXNativeTarget "emogiphyTests" */;
+			buildPhases = (
+				012C3C481EC2E2D10053A9D2 /* Sources */,
+				012C3C491EC2E2D10053A9D2 /* Frameworks */,
+				012C3C4A1EC2E2D10053A9D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				012C3C4E1EC2E2D10053A9D2 /* PBXTargetDependency */,
+			);
+			name = emogiphyTests;
+			productName = emogiphyTests;
+			productReference = 012C3C4C1EC2E2D10053A9D2 /* emogiphyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		012C3C561EC2E2D10053A9D2 /* emogiphyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 012C3C661EC2E2D10053A9D2 /* Build configuration list for PBXNativeTarget "emogiphyUITests" */;
+			buildPhases = (
+				012C3C531EC2E2D10053A9D2 /* Sources */,
+				012C3C541EC2E2D10053A9D2 /* Frameworks */,
+				012C3C551EC2E2D10053A9D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				012C3C591EC2E2D10053A9D2 /* PBXTargetDependency */,
+			);
+			name = emogiphyUITests;
+			productName = emogiphyUITests;
+			productReference = 012C3C571EC2E2D10053A9D2 /* emogiphyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		012C3C301EC2E2D00053A9D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = dietcode;
+				TargetAttributes = {
+					012C3C371EC2E2D00053A9D2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					012C3C4B1EC2E2D10053A9D2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 012C3C371EC2E2D00053A9D2;
+					};
+					012C3C561EC2E2D10053A9D2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 012C3C371EC2E2D00053A9D2;
+					};
+				};
+			};
+			buildConfigurationList = 012C3C331EC2E2D00053A9D2 /* Build configuration list for PBXProject "emogiphy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 012C3C2F1EC2E2D00053A9D2;
+			productRefGroup = 012C3C391EC2E2D10053A9D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				012C3C371EC2E2D00053A9D2 /* emogiphy */,
+				012C3C4B1EC2E2D10053A9D2 /* emogiphyTests */,
+				012C3C561EC2E2D10053A9D2 /* emogiphyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		012C3C361EC2E2D00053A9D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012C3C461EC2E2D10053A9D2 /* LaunchScreen.storyboard in Resources */,
+				012C3C431EC2E2D10053A9D2 /* Assets.xcassets in Resources */,
+				012C3C411EC2E2D10053A9D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		012C3C4A1EC2E2D10053A9D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		012C3C551EC2E2D10053A9D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D5E9E371F4049E9FA2F75BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-emogiphy/Pods-emogiphy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFEF2937840A6C1B67CB357D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD634BC0BFEED24432305B52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-emogiphy/Pods-emogiphy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		012C3C341EC2E2D00053A9D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012C3C3E1EC2E2D10053A9D2 /* EmojiCollectionViewController.swift in Sources */,
+				012C3C3C1EC2E2D10053A9D2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		012C3C481EC2E2D10053A9D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012C3C511EC2E2D10053A9D2 /* emogiphyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		012C3C531EC2E2D10053A9D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012C3C5C1EC2E2D10053A9D2 /* emogiphyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		012C3C4E1EC2E2D10053A9D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 012C3C371EC2E2D00053A9D2 /* emogiphy */;
+			targetProxy = 012C3C4D1EC2E2D10053A9D2 /* PBXContainerItemProxy */;
+		};
+		012C3C591EC2E2D10053A9D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 012C3C371EC2E2D00053A9D2 /* emogiphy */;
+			targetProxy = 012C3C581EC2E2D10053A9D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		012C3C3F1EC2E2D10053A9D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				012C3C401EC2E2D10053A9D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		012C3C441EC2E2D10053A9D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				012C3C451EC2E2D10053A9D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		012C3C5E1EC2E2D10053A9D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		012C3C5F1EC2E2D10053A9D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		012C3C611EC2E2D10053A9D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DD9892F3DFF24998FFD02CB /* Pods-emogiphy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = emogiphy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.dietco.emogiphy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		012C3C621EC2E2D10053A9D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55B6CC170D8A192D73B05F81 /* Pods-emogiphy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = emogiphy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.dietco.emogiphy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		012C3C641EC2E2D10053A9D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = emogiphyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.dietco.emogiphyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/emogiphy.app/emogiphy";
+			};
+			name = Debug;
+		};
+		012C3C651EC2E2D10053A9D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = emogiphyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.dietco.emogiphyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/emogiphy.app/emogiphy";
+			};
+			name = Release;
+		};
+		012C3C671EC2E2D10053A9D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = emogiphyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.dietco.emogiphyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = emogiphy;
+			};
+			name = Debug;
+		};
+		012C3C681EC2E2D10053A9D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = emogiphyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.dietco.emogiphyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = emogiphy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		012C3C331EC2E2D00053A9D2 /* Build configuration list for PBXProject "emogiphy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				012C3C5E1EC2E2D10053A9D2 /* Debug */,
+				012C3C5F1EC2E2D10053A9D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		012C3C601EC2E2D10053A9D2 /* Build configuration list for PBXNativeTarget "emogiphy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				012C3C611EC2E2D10053A9D2 /* Debug */,
+				012C3C621EC2E2D10053A9D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		012C3C631EC2E2D10053A9D2 /* Build configuration list for PBXNativeTarget "emogiphyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				012C3C641EC2E2D10053A9D2 /* Debug */,
+				012C3C651EC2E2D10053A9D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		012C3C661EC2E2D10053A9D2 /* Build configuration list for PBXNativeTarget "emogiphyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				012C3C671EC2E2D10053A9D2 /* Debug */,
+				012C3C681EC2E2D10053A9D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 012C3C301EC2E2D00053A9D2 /* Project object */;
+}
